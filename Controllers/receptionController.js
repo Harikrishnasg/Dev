@@ -137,8 +137,6 @@ exports.login = async (req, res, next) => {
         } else {
           res.status(401).json({status: 'Invalid Credentials'});
         }
-
-        // console.log(err);
       });
     }
   } catch (err) {
