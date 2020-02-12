@@ -1,0 +1,28 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harikrishnasg/Dev.git"
+  },
+  "author": "Harikrishna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harikrishnasg/Dev/issues"
+  },
+  "homepage": "https://github.com/Harikrishnasg/Dev#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
