@@ -92,7 +92,6 @@ exports.Registration = async (req, res, next) => {
         }).save();
 
         const cli = await ClinicReg.find({Email: req.body.Email});
-        // console.log(cli, '#3');
         const upregst = await NoOfReg.updateOne({
           Clinic: 'Yes'}, {$set: {RegistrationNo: cli[0].RegistrationNo},
         }, {new: true});
